@@ -6,8 +6,8 @@ permalink: https://ieeexplore.ieee.org/abstract/document/8934603
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2019-05-03
 venue: '2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT)'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+slidesurl: 'http://aranya059.github.io/files/Paper ID-455 -Brain Tumor classification using convolution neural network.pdf'
+paperurl: 'http://aranya059.github.io/files/Brain_Tumor_Classification_Using_Convolutional_Neural_Network.pdf'
 citation: 'S. Das, O. F. M. R. R. Aranya and N. N. Labiba, "Brain Tumor Classification Using Convolutional Neural Network," 2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT), Dhaka, Bangladesh, 2019, pp. 1-5, doi: 10.1109/ICASERT.2019.8934603.'
 ---
 
