@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "OFM Riaz Rahman Aranya"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "OFM Riaz Rahman Aranya"
 description              : &description "personal description"
 url                      : https://aranya059.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,7 +25,7 @@ author:
   name             : "OFM Riaz Rahman Aranya"
   pronouns         : #"he/him"  
   bio              : "PhD student, Department of computer science, UTSA"
-  location         : "San Antonio"
+  location         : "San Antonio, Texas, USA"
   employer         : "University of Texas at San Antonio"
   uri              : # URL
   email            : "ofmriazrahman.aranya@utsa.edu" 
