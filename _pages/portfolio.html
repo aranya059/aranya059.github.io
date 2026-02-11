@@ -1,14 +1,22 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<ul style="list-style-type: disc; line-height: 1.7; font-size: 0.95em; padding-left: 1.2em;">
+{% for project in site.data.projects %}
+  <li style="margin-bottom: 1em;">
+    {% if project.github %}
+      <a href="{{ project.github }}"><strong>{{ project.title }}</strong></a>
+    {% else %}
+      <strong>{{ project.title }}</strong>
+    {% endif %}
+    ({{ project.year }})
+    {% if project.award %}<span style="color: #c62828;"> [{{ project.award }}]</span>{% endif %}<br/>
+    <span style="font-size: 0.9em;">Tools: {{ project.tools }}</span><br/>
+    <span style="font-size: 0.9em; color: #555;">{{ project.description }}</span>
+  </li>
 {% endfor %}
-
+</ul>

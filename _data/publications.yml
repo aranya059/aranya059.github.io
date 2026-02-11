@@ -1,0 +1,45 @@
+- id: 'aranya2026sraseg'
+  doi: 'https://doi.org/10.48550/arXiv.2602.02944'
+  title: 'SRA-Seg: Synthetic to Real Alignment for Semi-Supervised Medical Image Segmentation'
+  authors: 'OFM Riaz Rahman Aranya, Kevin Desai'
+  venue: 'arXiv preprint'
+  year: '2026'
+  link: https://utsa-virlab.github.io/SRA-Seg/
+  arxiv: https://arxiv.org/abs/2602.02944
+  bibtex: 'OFM Riaz Rahman Aranya, Kevin Desai, SRA-Seg: Synthetic to Real Alignment for Semi-Supervised Medical Image Segmentation, arXiv preprint arXiv:2602.02944, 2025.'
+
+- id: 'aranya2026trace'
+  doi: 'https://doi.org/10.48550/arXiv.2602.02963'
+  title: 'TRACE: Temporal Radiology with Anatomical Change Explanation for Grounded X-ray Report Generation'
+  authors: 'OFM Riaz Rahman Aranya, Kevin Desai'
+  venue: 'arXiv preprint'
+  year: '2026'
+  link: https://utsa-virlab.github.io/TRACE/
+  arxiv: https://arxiv.org/abs/2602.02963
+  bibtex: 'OFM Riaz Rahman Aranya, Kevin Desai, TRACE: Temporal Radiology with Anatomical Change Explanation for Grounded X-ray Report Generation, arXiv preprint arXiv:2602.02963, 2025.'
+
+- id: 'bagherian2025astrocyte'
+  doi: 'https://doi.org/10.1093/jnen/nlaf114'
+  title: 'Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury'
+  authors: 'Amirhossein Bagherian, OFM Riaz Rahman Aranya, Allison Kosub, et al.'
+  venue: 'Journal of Neuropathology and Experimental Neurology'
+  year: '2025'
+  bibtex: 'Amirhossein Bagherian, OFM Riaz Rahman Aranya, Allison Kosub, et al., Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury, Journal of Neuropathology and Experimental Neurology, 2025.'
+
+- id: 'saha2021covvgx'
+  doi: 'https://doi.org/10.1016/j.imu.2021.100741'
+  title: 'COV-VGX: An automated COVID-19 detection system using X-ray images and transfer learning'
+  authors: 'Prottoy Saha, Muhammad Sheikh Sadi, OFM Riaz Rahman Aranya, Sadia Jahan, Ferdib-Al Islam'
+  venue: 'Informatics in Medicine Unlocked, Volume 26'
+  year: '2021'
+  pdf: files/COV-VGX.pdf
+  bibtex: 'P. Saha, M. Sadi, O. Aranya, S. Jahan and F. Islam, "COV-VGX: An automated COVID-19 detection system using X-ray images and transfer learning", Informatics in Medicine Unlocked, vol. 26, pp. 100741, 2021.'
+
+- id: 'das2019braintumor'
+  doi: 'https://doi.org/10.1109/ICASERT.2019.8934603'
+  title: 'Brain Tumor Classification Using Convolutional Neural Network'
+  authors: 'Sunanda Das, OFM Riaz Rahman Aranya, Nishat Naila Labiba'
+  venue: '1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT)'
+  year: '2019'
+  pdf: files/Brain_Tumor_Classification_Using_Convolutional_Neural_Network.pdf
+  bibtex: 'S. Das, O. F. M. R. R. Aranya and N. N. Labiba, "Brain Tumor Classification Using Convolutional Neural Network," 2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT), Dhaka, Bangladesh, 2019, pp. 1-5.'

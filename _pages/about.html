@@ -1,0 +1,27 @@
+---
+permalink: /
+title: "About"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<p>I am a PhD student in the Department of <a href="https://sciences.utsa.edu/computer-science/">Computer Science</a> at the <a href="https://www.utsa.edu">University of Texas at San Antonio</a>, advised by <a href="https://sites.google.com/site/kevinpdesai">Dr. Kevin Desai</a> in the <a href="https://utsa-virlab.github.io">Vision &amp; Immersive Realities Lab</a>.</p>
+
+<p>My research interests lie in <strong>medical image segmentation</strong>, <strong>data-efficient deep learning</strong>, and <strong>AI-driven healthcare</strong>. I am currently working on semi-supervised segmentation methods that leverage synthetic-to-real domain alignment to reduce annotation costs in medical imaging. A list of my publications can be found <a href="/publications/">here</a>.</p>
+
+<p>Prior to my PhD, I worked as a software engineer for 2.5 years, building full-stack applications and designing system architectures at <a href="https://nascenia.com">Nascenia Ltd</a> and <a href="https://www.reddotdigitalit.com">RedDot Digital Ltd</a>.</p>
+
+<p>I received my B.Sc. in Computer Science and Engineering from <a href="https://kuet.ac.bd">Khulna University of Engineering &amp; Technology (KUET)</a> in 2020.</p>
+
+<p><strong>Research Interests:</strong> Medical Image Segmentation, Semi-Supervised Learning, Transfer Learning, Computer Vision, Deep Learning for Healthcare</p>
+
+<hr style="margin: 2em 0 1.5em 0;"/>
+
+<h2 style="margin-top: 0;">News &amp; Updates</h2>
+<div style="font-size: 0.9em; border-left: 3px solid #6db1be; padding-left: 1em; max-height: 300px; overflow-y: auto;">
+{% for item in site.data.news %}
+<p style="margin-bottom: 0.5em;"><strong>{{ item.date }}</strong> — {{ item.text }}</p>
+{% endfor %}
+</div>

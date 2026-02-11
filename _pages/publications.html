@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<p style="margin-bottom: 1.5em; font-size: 0.95em;">
+  See also: <a href="https://scholar.google.com/citations?user=gNcn1YAAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-8195-2710">ORCID</a>
+</p>
+
+<ul style="list-style-type: disc; line-height: 1.7; font-size: 0.95em; padding-left: 1.2em;">
+{% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+{% for pub in sorted_pubs %}
+  <li style="margin-bottom: 1em;">
+    {{ pub.authors }}, "{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}<strong>{{ pub.title }}</strong>{% endif %}," <em>{{ pub.venue }}</em>, {{ pub.year }}.
+    {% if pub.link %}<a href="{{ pub.link }}">[Project]</a>{% endif %}
+    {% if pub.arxiv %}<a href="{{ pub.arxiv }}">[arXiv]</a>{% endif %}
+    {% if pub.pdf %}<a href="{{ site.baseurl }}/{{ pub.pdf }}">[PDF]</a>{% endif %}
+    {% if pub.bibtex %}
+    <details style="display: inline;">
+      <summary style="cursor: pointer; display: inline; color: #494e52;">[BibTeX]</summary>
+      <pre style="background: #f6f6f6; padding: 8px; margin-top: 4px; font-size: 0.85em; white-space: pre-wrap; border: 1px solid #ddd;">{{ pub.bibtex }}</pre>
+    </details>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

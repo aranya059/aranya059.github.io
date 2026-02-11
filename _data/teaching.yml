@@ -1,0 +1,25 @@
+instructing:
+  - course_code: "CS 2113"
+    title: "Fundamentals of Object-Oriented Programming"
+    semester: "Fall 2025"
+
+  - course_code: "CS 3443"
+    title: "Application Programming"
+    semester: "Fall 2024"
+
+assisting:
+  - course_code: "CS 4843"
+    title: "Cloud Computing"
+    semester: "Spring 2025, Summer 2025"
+
+  - course_code: "CS 3853"
+    title: "Computer Architecture"
+    semester: "Summer 2024"
+
+  - course_code: "CS 3443"
+    title: "Application Programming"
+    semester: "Spring 2024"
+
+  - course_code: "CS 2233"
+    title: "Discrete Math Structures"
+    semester: "Fall 2023"

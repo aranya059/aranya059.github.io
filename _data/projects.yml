@@ -1,0 +1,41 @@
+- title: "Recommendation System"
+  year: "2021-2022"
+  tools: "Ruby on Rails, JavaScript, jQuery, MySQL"
+  github:
+  award:
+  description: "Developed multiple features and fixed bugs in the application. Built APIs and tested performance using JMeter. Optimized the application to support many users simultaneously."
+
+- title: "Company Digitization"
+  year: "2022"
+  tools: "Ruby on Rails, JavaScript, jQuery, MySQL"
+  github:
+  award:
+  description: "Developed multiple features in the application. Contributed to the design of system architecture."
+
+- title: "Online Collaboration Platform"
+  year: "2022"
+  tools: "Ruby on Rails, JavaScript, jQuery, MySQL"
+  github:
+  award:
+  description: "A Q&A and blogging platform where employees from different companies can ask and answer questions. Features include voting, points system, blog section with commenting, and configurable post visibility. Developed single-handedly."
+
+- title: "Ninja Runner (Game)"
+  year: "2020"
+  tools: "Unity3D, C#"
+  github:
+  award:
+  description: "An endless runner game where the player runs while avoiding collisions with obstacles and collects points for each successful pass."
+
+- title: "Smart Voice Control Wheelchair"
+  year: "2018"
+  tools: "Raspberry Pi, Python"
+  github:
+  award: "1st Runner Up, LICT Project Showcasing, Jashore IT Park, 2019"
+  description: "A smart wheelchair controlled by human voice through a smartphone. Voice is converted to text via a smartphone app, which sends data to a Raspberry Pi attached to the wheelchair for movement control."
+
+- title: "Student Contact Information App"
+  year: "2017"
+  tools: "Android Studio"
+  github:
+  award:
+  description: "An Android application for managing contact information of a class of students, with features including direct calling and connecting to social media profiles."

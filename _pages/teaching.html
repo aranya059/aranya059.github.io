@@ -5,8 +5,16 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>Course Instructor</h2>
+<ul style="list-style-type: disc; line-height: 1.8; font-size: 0.95em; padding-left: 1.2em;">
+{% for course in site.data.teaching.instructing %}
+  <li>{{ course.course_code }} - {{ course.title }} ({{ course.semester }})</li>
 {% endfor %}
+</ul>
+
+<h2>Teaching Assistant / Grader</h2>
+<ul style="list-style-type: disc; line-height: 1.8; font-size: 0.95em; padding-left: 1.2em;">
+{% for course in site.data.teaching.assisting %}
+  <li>{{ course.course_code }} - {{ course.title }} ({{ course.semester }})</li>
+{% endfor %}
+</ul>
