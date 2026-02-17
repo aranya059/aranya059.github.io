@@ -1,6 +1,5 @@
 - date: "Oct 2025"
-  text: 'Our Paper "Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury" (https://doi.org/10.1093/jnen/nlaf114) accepted at Journal of Neuropathology and Experimental Neurology (JNEN)'
-
+  text: 'Our paper <a href="https://doi.org/10.1093/jnen/nlaf114">Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury</a> accepted at Journal of Neuropathology and Experimental Neurology (JNEN)'
 - date: "Aug 2025"
   text: "Serving as Course Instructor for CS 2113 - Fundamentals of Object-Oriented Programming"
 
