@@ -1,3 +1,12 @@
+- date: "Mar 2026"
+  text: 'Two of my papers (<a href="https://arxiv.org/abs/2602.02944">SRA-Seg</a> & <a href="https://arxiv.org/abs/2602.02963">TRACE</a>) have been accepted at <b>ICPR 2026</b> in Lyon, France'
+
+- date: "Mar 2026"
+  text: 'Our paper <a href="https://arxiv.org/abs/2603.22624">Toward Faithful Segmentation Attribution via Benchmarking and Dual-Evidence Fusion</a> accepted at <b>CVPR 2026</b> HOW workshop in Denver, CO, USA'
+
+- date: "Mar 2026"
+  text: 'My paper <a href="https://arxiv.org/abs/2603.22623">To Agree or To Be Right? The Grounding-Sycophancy Tradeoff in Medical Vision-Language Models</a> accepted at <b>CVPR 2026</b> Med-reasoner workshop in Denver, CO, USA'
+
 - date: "Oct 2025"
   text: 'Our paper <a href="https://doi.org/10.1093/jnen/nlaf114">Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury</a> accepted at Journal of Neuropathology and Experimental Neurology (JNEN)'
 - date: "Aug 2025"
