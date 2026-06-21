@@ -15,7 +15,6 @@
   caption: 'Presenting our poster <i>“To Agree or To Be Right?”</i> at CVPR 2026'
   date: "Jun 2026"
 
-# Oral presentation video — paste the YouTube/Vimeo link once uploaded (see note from Claude).
-# - youtube: "REPLACE_WITH_VIDEO_ID"
-#   caption: "Oral presentation — Med-Reasoner workshop, CVPR 2026"
-#   date: "Jun 2026"
+- youtube: "QSHQpBqMH5Y"
+  caption: 'Oral presentation of <i>“To Agree or To Be Right?”</i> — Med-Reasoner workshop, CVPR 2026'
+  date: "Jun 2026"
