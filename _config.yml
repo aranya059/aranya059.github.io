@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "OFM Riaz Rahman Aranya"
 title_separator          : "-"
 name                     : &name "OFM Riaz Rahman Aranya"
-description              : &description "PhD student in Computer Science at UTSA, specializing in medical image segmentation and data-efficient deep learning."
+description              : &description "PhD student in Computer Science at UTSA, working on vision-language models for clinical applications, medical image segmentation, and trustworthy, data-efficient AI for healthcare."
 url                      : https://aranya059.github.io
 baseurl                  : ""
 repository               : "aranya059/aranya059.github.io"
@@ -38,6 +38,7 @@ include:
   - _pages
   - files
 exclude:
+  - gallery
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

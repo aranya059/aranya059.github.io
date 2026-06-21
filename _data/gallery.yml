@@ -1,0 +1,21 @@
+# Each item is one gallery card.
+#   image:    path under /images/gallery/  (for a photo)
+#   youtube:  YouTube/Vimeo video ID or full URL (for an embedded video)
+#   caption:  shown under the item
+#   date:     optional, shown in the caption line
+- image: "cvpr2026-best-paper-stage.jpg"
+  caption: "Receiving the <b>Best Paper Award</b> at the Med-Reasoner workshop, CVPR 2026"
+  date: "Jun 2026"
+
+- image: "cvpr2026-best-paper-certificate.jpg"
+  caption: "Best Paper Award certificate — Med-Reasoner @ CVPR 2026, Denver, CO"
+  date: "Jun 2026"
+
+- image: "cvpr2026-poster.jpg"
+  caption: 'Presenting our poster <i>“To Agree or To Be Right?”</i> at CVPR 2026'
+  date: "Jun 2026"
+
+# Oral presentation video — paste the YouTube/Vimeo link once uploaded (see note from Claude).
+# - youtube: "REPLACE_WITH_VIDEO_ID"
+#   caption: "Oral presentation — Med-Reasoner workshop, CVPR 2026"
+#   date: "Jun 2026"

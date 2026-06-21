@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(git rm *)",
+      "Bash(python3 -c \"import pypdf\")",
+      "Bash(python3 -c \"import PyPDF2\")",
+      "Bash(python3 -c \"import fitz\")",
+      "Bash(cd *)",
+      "Bash(python3 -)",
+      "Bash(ffprobe -v error -select_streams v:0 -show_entries stream=width,height,duration,codec_name -show_entries format=duration,bit_rate -of default=noprint_wrappers=1 \"gallery/AgreeOrRight/oral_presentation.mov\")",
+      "Bash(magick '__TRACKED_VAR__/IMG_1054 Copy.jpg' -auto-orient -resize '1600x1600>' -strip -quality 82 images/gallery/_tmp_a.jpg)",
+      "Bash(magick __TRACKED_VAR__/IMG_1089.heic -auto-orient -resize '1600x1600>' -strip -quality 82 images/gallery/_tmp_b.jpg)",
+      "Bash(magick __TRACKED_VAR__/IMG_1106.heic -auto-orient -resize '1600x1600>' -strip -quality 82 images/gallery/_tmp_c.jpg)",
+      "Bash(mv _tmp_a.jpg cvpr2026-poster.jpg)",
+      "Bash(mv _tmp_b.jpg cvpr2026-best-paper-stage.jpg)",
+      "Bash(mv _tmp_c.jpg cvpr2026-best-paper-certificate.jpg)",
+      "Bash(echo \"exit:$?\")"
+    ]
+  }
+}

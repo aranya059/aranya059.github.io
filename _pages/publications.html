@@ -9,20 +9,34 @@ author_profile: true
   See also: <a href="https://scholar.google.com/citations?user=gNcn1YAAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-8195-2710">ORCID</a>
 </p>
 
-<ul style="list-style-type: disc; line-height: 1.7; font-size: 0.95em; padding-left: 1.2em;">
-{% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
-{% for pub in sorted_pubs %}
-  <li style="margin-bottom: 1em;">
-    {{ pub.authors }}, "{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}<strong>{{ pub.title }}</strong>{% endif %}," <em>{{ pub.venue }}</em>, {{ pub.year }}.
-    {% if pub.link %}<a href="{{ pub.link }}">[Project]</a>{% endif %}
-    {% if pub.arxiv %}<a href="{{ pub.arxiv }}">[arXiv]</a>{% endif %}
-    {% if pub.pdf %}<a href="{{ site.baseurl }}/{{ pub.pdf }}">[PDF]</a>{% endif %}
-    {% if pub.bibtex %}
-    <details style="display: inline;">
-      <summary style="cursor: pointer; display: inline; color: #494e52;">[BibTeX]</summary>
-      <pre style="background: #f6f6f6; padding: 8px; margin-top: 4px; font-size: 0.85em; white-space: pre-wrap; border: 1px solid #ddd;">{{ pub.bibtex }}</pre>
-    </details>
-    {% endif %}
-  </li>
+{% assign name = "OFM Riaz Rahman Aranya" %}
+{% capture bold_name %}<strong>{{ name }}</strong>{% endcapture %}
+{% assign type_order = "Journal,Conference,Workshop,Preprint" | split: "," %}
+{% assign type_labels = "Journal Articles,Conference Papers,Workshop Papers,Preprints" | split: "," %}
+
+{% for t in type_order %}
+  {% assign group = site.data.publications | where: "type", t | sort: "year" | reverse %}
+  {% if group.size > 0 %}
+  <h2 style="border-bottom: 1px solid #ddd; padding-bottom: 0.2em; margin-top: 1.5em;">{{ type_labels[forloop.index0] }}</h2>
+  <ol style="line-height: 1.7; font-size: 0.95em; padding-left: 1.4em;">
+  {% for pub in group %}
+    <li style="margin-bottom: 1em;">
+      {{ pub.authors | replace: name, bold_name }}. <span style="color: #000;">"{{ pub.title }}."</span> <em>{{ pub.venue }}</em>, {{ pub.year }}.
+      {% if pub.oral %}<span style="color: #2e7d32; font-weight: bold;">[Oral]</span>{% endif %}
+      {% if pub.award %}<span style="color: #c62828; font-weight: bold;">🏆 {{ pub.award }}</span>{% endif %}
+      {% if pub.doi %}{% unless pub.doi contains '10.48550' %}<a href="{{ pub.doi }}">[DOI]</a>{% endunless %}{% endif %}
+      {% if pub.arxiv %}<a href="{{ pub.arxiv }}">[arXiv]</a>{% endif %}
+      {% if pub.cvf %}<a href="{{ pub.cvf }}">[CVF]</a>{% endif %}
+      {% if pub.pdf %}<a href="{% if pub.pdf contains '://' %}{{ pub.pdf }}{% else %}{{ site.baseurl }}/{{ pub.pdf }}{% endif %}">[PDF]</a>{% endif %}
+      {% if pub.link %}<a href="{{ pub.link }}">[Project]</a>{% endif %}
+      {% if pub.bibtex %}
+      <details style="display: inline;">
+        <summary style="cursor: pointer; display: inline; color: #494e52;">[BibTeX]</summary>
+        <pre style="background: #f6f6f6; padding: 8px; margin-top: 4px; font-size: 0.85em; white-space: pre-wrap; border: 1px solid #ddd;">{{ pub.bibtex }}</pre>
+      </details>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+  {% endif %}
 {% endfor %}
-</ul>

@@ -7,25 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-<p style="background-color: #fdeaea; border: 1px solid #e57373; border-left: 4px solid #d32f2f; color: #c62828; padding: 0.75em 1em; border-radius: 4px; font-weight: bold; margin-bottom: 1.5em;">
-🔍 I am actively looking for internship opportunities. Feel free to reach out "ofmriazrahman.aranya[at]utsa.edu"</a>
-</p>
 
-<p>I am a PhD student in the Department of <a href="https://sciences.utsa.edu/computer-science/">Computer Science</a> at the <a href="https://www.utsa.edu">University of Texas at San Antonio</a>, advised by <a href="https://sites.google.com/site/kevinpdesai">Dr. Kevin Desai</a> in the <a href="https://utsa-virlab.github.io">Vision &amp; Immersive Realities Lab</a>.</p>
+<p>I am a PhD student in <a href="https://sciences.utsa.edu/computer-science/">Computer Science</a> at the <a href="https://www.utsa.edu">University of Texas at San Antonio</a>, advised by <a href="https://sites.google.com/site/kevinpdesai">Dr. Kevin Desai</a> in the <a href="https://utsa-virlab.github.io">Vision &amp; Immersive Realities Lab</a>.</p>
 
-<p>My research centers on <strong>vision-language models for clinical applications</strong>, <strong>medical image segmentation</strong>, and <strong>explainable, trustworthy AI for healthcare</strong>. My recent work spans grounded radiology report generation, longitudinal change analysis in chest X-rays, and the reliability of medical vision-language models — including the grounding-sycophancy tradeoff that governs whether such models stay faithful to image evidence. I am also interested in data-efficient learning, using semi-supervised methods and synthetic-to-real domain alignment to reduce annotation costs in medical imaging. A list of my publications can be found <a href="/publications/">here</a>.</p>
+<p>My research focuses on <strong>vision-language models for clinical applications</strong>, <strong>medical image segmentation</strong>, and <strong>trustworthy AI for healthcare</strong>, with an emphasis on data-efficient learning to cut annotation costs. See my publications <a href="/publications/">here</a>.</p>
 
-<p>Prior to my PhD, I worked as a software engineer for 2.5 years, building full-stack applications and designing system architectures at <a href="https://nascenia.com">Nascenia Ltd</a> and <a href="https://www.reddotdigitalit.com">RedDot Digital Ltd</a>.</p>
-
-<p>I received my B.Sc. in Computer Science and Engineering from <a href="https://kuet.ac.bd">Khulna University of Engineering &amp; Technology (KUET)</a> in 2020.</p>
-
-<p><strong>Research Interests:</strong> Medical Image Segmentation, Vision-Language Models for Clinical Applications, Radiology Report Generation, Longitudinal Change Analysis, Explainable AI, Semi-Supervised Learning, Synthetic-to-Real Domain Adaptation</p>
-
+<p>Before my PhD, I spent 2.5 years as a software engineer at <a href="https://nascenia.com">Nascenia Ltd</a> and <a href="https://www.reddotdigitalit.com">RedDot Digital Ltd</a>. I received my B.Sc. in Computer Science and Engineering from <a href="https://kuet.ac.bd">KUET</a> in 2020.</p>
 <hr style="margin: 2em 0 1.5em 0;"/>
 
 <h2 style="margin-top: 0;">News &amp; Updates</h2>
-<div style="font-size: 0.9em; border-left: 3px solid #6db1be; padding-left: 1em; max-height: 300px; overflow-y: auto;">
+<div style="font-size: 0.9em; border-left: 3px solid #6db1be; padding-left: 1em; max-height: 15em; overflow-y: auto;">
 {% for item in site.data.news %}
-<p style="margin-bottom: 0.5em;"><strong>{{ item.date }}</strong> — {{ item.text }}</p>
+<div style="display: flex; gap: 0.75em; margin-bottom: 0.6em;">
+  <div style="flex: 0 0 5.5em; font-weight: bold; white-space: nowrap;">{{ item.date }}</div>
+  <div style="flex: 1;">{{ item.text }}</div>
+</div>
 {% endfor %}
 </div>

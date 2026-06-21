@@ -1,0 +1,5 @@
+# Local development overrides.
+# Serve with:  bundle exec jekyll serve --config _config.yml,_config.dev.yml
+# This points site.url at localhost so nav links stay local instead of
+# jumping to the production site (https://aranya059.github.io).
+url: "http://localhost:4000"

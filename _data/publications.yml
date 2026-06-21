@@ -1,4 +1,5 @@
 - id: "akram2026thermaltap"
+  type: "Preprint"
   doi: "https://doi.org/10.48550/arXiv.2605.12927"
   title: "ThermalTap: Passive Application Fingerprinting in VR Headsets via Thermal Side Channels"
   authors: "Mahsin Bin Akram, A H M Nazmus Sakib, OFM Riaz Rahman Aranya, Raveen Wijewickrama, Kevin Desai, Murtuza Jadliwala"
@@ -8,26 +9,34 @@
   bibtex: "Mahsin Bin Akram, A H M Nazmus Sakib, OFM Riaz Rahman Aranya, Raveen Wijewickrama, Kevin Desai, Murtuza Jadliwala, ThermalTap: Passive Application Fingerprinting in VR Headsets via Thermal Side Channels, arXiv preprint arXiv:2605.12927, 2026."
 
 - id: "sakib2026faithful"
+  type: "Workshop"
   title: "Toward Faithful Segmentation Attribution via Benchmarking and Dual-Evidence Fusion"
   authors: "Abu Noman Md Sakib, OFM Riaz Rahman Aranya, Kevin Desai, Zijie Zhang"
   venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops"
   year: "2026"
   pages: "4171-4177"
-  link: "https://openaccess.thecvf.com/content/CVPR2026W/HOW/papers/Sakib_Toward_Faithful_Segmentation_Attribution_via_Benchmarking_and_Dual-Evidence_Fusion_CVPRW_2026_paper.pdf"
+  cvf: "https://openaccess.thecvf.com/content/CVPR2026W/HOW/html/Sakib_Toward_Faithful_Segmentation_Attribution_via_Benchmarking_and_Dual-Evidence_Fusion_CVPRW_2026_paper.html"
+  pdf: "https://openaccess.thecvf.com/content/CVPR2026W/HOW/papers/Sakib_Toward_Faithful_Segmentation_Attribution_via_Benchmarking_and_Dual-Evidence_Fusion_CVPRW_2026_paper.pdf"
   bibtex: "Abu Noman Md Sakib, OFM Riaz Rahman Aranya, Kevin Desai, Zijie Zhang, Toward Faithful Segmentation Attribution via Benchmarking and Dual-Evidence Fusion, Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2026, pp. 4171-4177."
 
 - id: "aranya2026sycophancy"
+  type: "Workshop"
   doi: "https://doi.org/10.48550/arXiv.2603.22623"
   title: "To Agree or To Be Right? The Grounding-Sycophancy Tradeoff in Medical Vision-Language Models"
   authors: "OFM Riaz Rahman Aranya, Kevin Desai"
   venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops"
   year: "2026"
   pages: "6874-6882"
+  award: "Best Paper Award"
+  oral: true
   link: "https://utsa-virlab.github.io/AgreeOrRight/"
   arxiv: "https://arxiv.org/abs/2603.22623"
+  cvf: "https://openaccess.thecvf.com/content/CVPR2026W/Med-Reasoner/html/Aranya_To_Agree_or_To_Be_Right_The_Grounding-Sycophancy_Tradeoff_in_CVPRW_2026_paper.html"
+  pdf: "https://openaccess.thecvf.com/content/CVPR2026W/Med-Reasoner/papers/Aranya_To_Agree_or_To_Be_Right_The_Grounding-Sycophancy_Tradeoff_in_CVPRW_2026_paper.pdf"
   bibtex: "OFM Riaz Rahman Aranya, Kevin Desai, To Agree or To Be Right? The Grounding-Sycophancy Tradeoff in Medical Vision-Language Models, Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2026, pp. 6874-6882."
 
 - id: "aranya2026sraseg"
+  type: "Conference"
   doi: "https://doi.org/10.48550/arXiv.2602.02944"
   title: "SRA-Seg: Synthetic to Real Alignment for Semi-Supervised Medical Image Segmentation"
   authors: "OFM Riaz Rahman Aranya, Kevin Desai"
@@ -38,6 +47,7 @@
   bibtex: "OFM Riaz Rahman Aranya, Kevin Desai, SRA-Seg: Synthetic to Real Alignment for Semi-Supervised Medical Image Segmentation, International Conference on Pattern Recognition (ICPR), 2026."
 
 - id: "aranya2026trace"
+  type: "Conference"
   doi: "https://doi.org/10.48550/arXiv.2602.02963"
   title: "TRACE: Temporal Radiology with Anatomical Change Explanation for Grounded X-ray Report Generation"
   authors: "OFM Riaz Rahman Aranya, Kevin Desai"
@@ -48,6 +58,7 @@
   bibtex: "OFM Riaz Rahman Aranya, Kevin Desai, TRACE: Temporal Radiology with Anatomical Change Explanation for Grounded X-ray Report Generation, International Conference on Pattern Recognition (ICPR), 2026."
 
 - id: "bagherian2025astrocyte"
+  type: "Journal"
   doi: "https://doi.org/10.1093/jnen/nlaf114"
   title: "Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury"
   authors: "Amirhossein Bagherian, OFM Riaz Rahman Aranya, Allison Kosub, et al."
@@ -56,6 +67,7 @@
   bibtex: "Amirhossein Bagherian, OFM Riaz Rahman Aranya, Allison Kosub, et al., Comprehensive Benchmarking of Deep Learning Approaches for Automated Astrocyte Segmentation in Traumatic Brain Injury, Journal of Neuropathology and Experimental Neurology, 2025."
 
 - id: "saha2021covvgx"
+  type: "Journal"
   doi: "https://doi.org/10.1016/j.imu.2021.100741"
   title: "COV-VGX: An automated COVID-19 detection system using X-ray images and transfer learning"
   authors: "Prottoy Saha, Muhammad Sheikh Sadi, OFM Riaz Rahman Aranya, Sadia Jahan, Ferdib-Al Islam"
@@ -65,6 +77,7 @@
   bibtex: 'P. Saha, M. Sadi, O. Aranya, S. Jahan and F. Islam, "COV-VGX: An automated COVID-19 detection system using X-ray images and transfer learning", Informatics in Medicine Unlocked, vol. 26, pp. 100741, 2021.'
 
 - id: "das2019braintumor"
+  type: "Conference"
   doi: "https://doi.org/10.1109/ICASERT.2019.8934603"
   title: "Brain Tumor Classification Using Convolutional Neural Network"
   authors: "Sunanda Das, OFM Riaz Rahman Aranya, Nishat Naila Labiba"

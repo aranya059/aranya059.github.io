@@ -1,4 +1,6 @@
 _site/
+# Source/original media (large HEIC + .mov). Compressed web copies live in images/gallery/.
+gallery/
 .DS_Store
 .sass-cache
 .jekyll-cache
